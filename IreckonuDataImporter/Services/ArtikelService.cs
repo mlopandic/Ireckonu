@@ -1,7 +1,6 @@
 ﻿using IreckonuDataImporter.Models;
 using IreckonuDataImporter.Repositories.Interfaces;
 using IreckonuDataImporter.Services.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -16,14 +15,27 @@ namespace IreckonuDataImporter.Services
             this.artikelRepository = artikelRepository;
         }
 
-        public async Task SaveArtikelsToDB(IList<Artikel> artikels)
+        public async Task SaveArtikels(IList<Artikel> artikels)
+        {
+            await SaveToDB(artikels);
+            await SaveToJson(artikels);
+        }
+
+        private async Task SaveToDB(IList<Artikel> artikels)
         {
             await artikelRepository.SaveArtikels(artikels);
         }
 
-        public Task SaveArtikelsToJson(IList<Artikel> artikels)
+        private async Task SaveToJson(IList<Artikel> artikels)
         {
-            throw new NotImplementedException();
+            using (System.IO.StreamWriter file =
+            new System.IO.StreamWriter(@"C:\temp\IreckonuData.json", true))
+            {
+                foreach (var artikel in artikels)
+                {
+                    await file.WriteLineAsync(Newtonsoft.Json.JsonConvert.SerializeObject(artikel));
+                }
+            }
         }
     }
 }

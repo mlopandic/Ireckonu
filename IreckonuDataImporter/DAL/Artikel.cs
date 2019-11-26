@@ -20,6 +20,6 @@
 
         public short Size { get; set; }
 
-        public string Color { get; set; } // Enum
+        public string Color { get; set; }
     }
 }

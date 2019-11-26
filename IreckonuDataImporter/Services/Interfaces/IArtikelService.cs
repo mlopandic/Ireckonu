@@ -6,8 +6,6 @@ namespace IreckonuDataImporter.Services.Interfaces
 {
     public interface IArtikelService
     {
-        Task SaveArtikelsToDB(IList<Artikel> artikels);
-
-        Task SaveArtikelsToJson(IList<Artikel> artikels);
+        Task SaveArtikels(IList<Artikel> artikels);
     }
 }
