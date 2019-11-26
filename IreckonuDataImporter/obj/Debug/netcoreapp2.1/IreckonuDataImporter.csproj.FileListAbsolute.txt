@@ -1,0 +1,16 @@
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\bin\Debug\netcoreapp2.1\IreckonuDataImporter.deps.json
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\bin\Debug\netcoreapp2.1\IreckonuDataImporter.runtimeconfig.json
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\bin\Debug\netcoreapp2.1\IreckonuDataImporter.runtimeconfig.dev.json
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\bin\Debug\netcoreapp2.1\IreckonuDataImporter.dll
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\obj\Debug\netcoreapp2.1\IreckonuDataImporter.csprojAssemblyReference.cache
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\obj\Debug\netcoreapp2.1\IreckonuDataImporter.RazorAssemblyInfo.cache
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\obj\Debug\netcoreapp2.1\IreckonuDataImporter.RazorAssemblyInfo.cs
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\obj\Debug\netcoreapp2.1\IreckonuDataImporter.AssemblyInfoInputs.cache
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\obj\Debug\netcoreapp2.1\IreckonuDataImporter.AssemblyInfo.cs
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\obj\Debug\netcoreapp2.1\IreckonuDataImporter.RazorTargetAssemblyInfo.cache
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\bin\Debug\netcoreapp2.1\IreckonuDataImporter.pdb
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\obj\Debug\netcoreapp2.1\IreckonuDataImporter.dll
+C:\Users\10259890\source\repos\IreckonuDataImporter\IreckonuDataImporter\obj\Debug\netcoreapp2.1\IreckonuDataImporter.pdb
