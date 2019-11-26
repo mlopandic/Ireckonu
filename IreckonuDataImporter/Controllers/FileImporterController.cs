@@ -45,7 +45,7 @@ namespace IreckonuDataImporter.Controllers
                 }
             }
 
-            await artikelService.SaveArtikelsToDB(artikels);
+            await artikelService.SaveArtikels(artikels);
 
             return Ok();
         }
